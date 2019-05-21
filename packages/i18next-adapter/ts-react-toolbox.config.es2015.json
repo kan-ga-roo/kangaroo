@@ -1,0 +1,21 @@
+{
+ "compilerOptions": {
+  "importHelpers": true,
+  "noImplicitAny": true,
+  "removeComments": true,
+  "declaration": true,
+  "outDir": "/Users/akorzunov/dev/kangaroo/packages/i18next-adapter/dist/es2015",
+  "lib": [
+   "dom",
+   "es6"
+  ],
+  "target": "es5",
+  "jsx": "react",
+  "moduleResolution": "node",
+  "module": "es2015"
+ },
+ "include": [
+  "/Users/akorzunov/dev/kangaroo/packages/i18next-adapter/src/**/*.ts",
+  "/Users/akorzunov/dev/kangaroo/packages/i18next-adapter/src/**/*.tsx"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "kangaroo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "ci": "yarn build && yarn lint && yarn test --ci && sizelimit",
+    "dev": "WATCH_MODE=true lerna run build --parallel -- --watch",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "lint": "eslint .",
+    "release": "lerna publish --conventional-commits && conventional-github-releaser --preset angular",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  },
+  "dependencies": {
+    "ts-react-toolbox": "^0.2.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+ "compilerOptions": {
+  "importHelpers": true,
+  "noImplicitAny": true,
+  "removeComments": true,
+  "declaration": true,
+  "outDir": "/Users/akorzunov/dev/kangaroo/packages/editor/dist/es5",
+  "lib": [
+   "dom",
+   "es6"
+  ],
+  "target": "es5",
+  "jsx": "react",
+  "moduleResolution": "node"
+ },
+ "include": [
+  "/Users/akorzunov/dev/kangaroo/packages/editor/src/**/*.ts",
+  "/Users/akorzunov/dev/kangaroo/packages/editor/src/**/*.tsx"
+ ]
+}
